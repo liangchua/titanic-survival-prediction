@@ -30,7 +30,7 @@ Predict whether a Titanic's passenger survived
 |optimal_model.png|An image display the optimal parameters of Random Forest Classifier|
 |rand_rf_model.pkl|The trained Random Forest Classifier (refer to line[61] in titanic_survival_prediction.ipynb)|
 |submission.png|An image display the score and ranking of this competition|
-|titanic_survival_prediction.ipynb|The main Jupyter Notebook which included all the steps for this competition|
+|titanic_survival_prediction.ipynb|The main Jupyter Notebook coding file which included all the steps for this competition|
 |titanic_test_data.csv|The testing dataset provided in Kaggle|
 |titanic_train_data.csv|The training dataset provided in Kaggle|
 
