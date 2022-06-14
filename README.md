@@ -5,4 +5,28 @@
 
 # TITANIC SURVIVAL PREDICTION
 
-The
+This is a Kaggle competition for beginner - The Legendary Titanic Machine Learning Competition. 
+
+[Link to the competition](https://www.kaggle.com/c/titanic "Titanic Compatition")
+
+#### THE CHALLENGE
+
+Build a predictive model to solved the problem "What sorts of people were more likely to survive?"
+
+#### THE OBJECTIVE
+
+Predict whether a Titanic's passenger survived 
+
+#### THE DESCRIPTION OF UPLOADED FILES 
+
+|File Name|Description|
+|---------|-----------|
+|Titanic_1.jpg|A Titanic image|
+|minmax.pkl|The fitted MinMaxScaler model (refer to line[40] in titanic_sruvival_prediction.ipynb)|
+|rand_rf_model.pkl|The trained Random Forest Classifier (refer to line[61] in titanic_survival_prediction.ipynb)|
+|titanic_survival_prediction.ipynb|The main Jupyter Notebook which included all the steps for this competition|
+|titanic_test_data.csv|The testing dataset provided in Kaggle|
+|titanic_train_data.csv|The training dataset provided in Kaggle|
+
+#### THE MODEL SELECTION
+
