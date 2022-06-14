@@ -9,24 +9,54 @@ This is a Kaggle competition for beginner - The Legendary Titanic Machine Learni
 
 [Link to the competition](https://www.kaggle.com/c/titanic "Titanic Compatition")
 
-#### THE CHALLENGE
+
+### THE CHALLENGE
 
 Build a predictive model to solved the problem "What sorts of people were more likely to survive?"
 
-#### THE OBJECTIVE
+
+### THE OBJECTIVE
 
 Predict whether a Titanic's passenger survived 
 
-#### THE DESCRIPTION OF UPLOADED FILES 
+
+### THE DESCRIPTION OF UPLOADED FILES 
 
 |File Name|Description|
 |---------|-----------|
 |Titanic_1.jpg|A Titanic image|
 |minmax.pkl|The fitted MinMaxScaler model (refer to line[40] in titanic_sruvival_prediction.ipynb)|
+|model_selection.png|An image display the accuracy scores of each trained model|
+|optimal_model.png|An image display the optimal parameters of Random Forest Classifier|
 |rand_rf_model.pkl|The trained Random Forest Classifier (refer to line[61] in titanic_survival_prediction.ipynb)|
+|submission.png|An image display the score and ranking of this competition|
 |titanic_survival_prediction.ipynb|The main Jupyter Notebook which included all the steps for this competition|
 |titanic_test_data.csv|The testing dataset provided in Kaggle|
 |titanic_train_data.csv|The training dataset provided in Kaggle|
 
-#### THE MODEL SELECTION
 
+### THE MODEL SELECTION
+The following figure show the accuracy scores of each trained model.
+The results shown that the Random Forest model is outperformed the others, it is therefore being selected as the best classifier of this set of data.
+
+![Image](model_selection.png)
+
+
+### THE OPTIMAL MODEL
+The following figure show the optimal parameters of Random Forest Classifier through random search hyperparameter tuning.
+
+![Image](optimal_model.png)
+
+
+### THE COMPETITION RESULT
+The following figure show the ranking and score of my submission.
+
+![Image](submission.png)
+
+
+### ADDITIONAL
+Besides building the machine learning model for this competition, an App was also created to deploy this trained model.
+Please refer to "titanic-app-streamlit-heroku" repository. 
+[Link to repository](https://github.com/liangchua/titanic-app-streamlit-heroku)
+
+Thank you for taking the time to read my work !!! 
